@@ -102,6 +102,12 @@ alias ll="l | less -R"
 # show manual
 alias m="man"
 
+# mkdir, cd into it
+mkcd () {
+    mkdir -p "$*"
+    cd "$*"
+}
+
 # [ch]mod
 alias mod="chmod"
 
