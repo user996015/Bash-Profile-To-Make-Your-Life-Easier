@@ -102,6 +102,12 @@ alias ll="l | less -R"
 # show manual
 alias m="man"
 
+# [ch]mod
+alias mod="chmod"
+
+# [ch]own
+alias own="chown"
+
 # print working directory
 alias p="pwd"
 
@@ -148,3 +154,8 @@ alias ws="mkdir -p ~/workspace/; cd ~/workspace/"
 # cd to www directory
 alias ww="cd /var/www/"
 alias www="ww"
+
+# git-specific aliases
+alias fetch="git fetch"
+alias pull="git pull"
+alias push="git push"
