@@ -50,4 +50,4 @@ Download to `~/.bash_profile`.
 
     $ wget https://github.com/darklaunch/Bash-Profile-To-Make-Your-Life-Easier/raw/master/.bashrc -O ~/.bash_profile
 
-NOTE: Bash will find and run your profile by searching for `~/.bash_profile`, `~/.bash_login` and `~/.profile` in that order and will stop looking after one is found.
+'''NOTE''': Bash will find and run your profile by searching for `~/.bash_profile`, `~/.bash_login` and `~/.profile` in that order and will stop looking after one is found.
