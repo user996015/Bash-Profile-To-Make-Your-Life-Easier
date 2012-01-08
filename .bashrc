@@ -12,6 +12,9 @@ alias ..4="c; cd ../../../../"
 alias ..5="c; cd ../../../../../"
 alias ..6="c; cd ../../../../../../"
 
+# addrepo [repository]
+alias addrepo="sudo add-apt-repository"
+
 # autoremove alias
 alias autoremove="sudo apt-get autoremove"
 
