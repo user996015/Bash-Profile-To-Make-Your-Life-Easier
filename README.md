@@ -1,14 +1,14 @@
-Install
-======
+Bash Profile To Make Your Life Easier
+=====================================
 
 Example Usage
 -------------
 
 Type `..` to go up one directory, `...` to go up two directories and so on.
 
-    alias ..="c; cd ../"
-    alias ...="c; cd ../../"
-    alias ....="c; cd ../../../"
+    alias ..="cd ../"
+    alias ...="cd ../../"
+    alias ....="cd ../../../"
 
 Change to common directories.
 
@@ -29,7 +29,7 @@ Install, update and upgrade with fewer keystrokes.
 Ubuntu Install
 --------------
 
-Edit your .bashrc to include .bash_aliases.
+Edit your `~/.bashrc` to run `~/.bash_aliases`.
 
     $ vim ~/.bashrc
 
@@ -39,6 +39,15 @@ Add or uncomment:
         . ~/.bash_aliases
     fi
 
-Then:
+Download to `~/.bash_aliases`:
 
     $ wget https://github.com/darklaunch/Bash-Profile-To-Make-Your-Life-Easier/raw/master/.bashrc -O ~/.bash_aliases
+
+Mac OS X Install
+----------------
+
+Download to `~/.bash_profile`.
+
+    $ wget https://github.com/darklaunch/Bash-Profile-To-Make-Your-Life-Easier/raw/master/.bashrc -O ~/.bash_profile
+
+NOTE: Bash will find and run your profile by searching for `~/.bash_profile`, `~/.bash_login` and `~/.profile` in that order and will stop looking after one is found.
