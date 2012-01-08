@@ -6,6 +6,10 @@ export GREP_OPTIONS='--color=auto --exclude-dir=.svn --line-number --recursive'
 # grep set color
 export GREP_COLOR='1;32'
 
+# vim as editor
+export VISUAL=vim
+export EDITOR=vim
+
 # vim keybindings available on the commandline
 set -o vi
 
