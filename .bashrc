@@ -129,6 +129,9 @@ alias remove="sudo apt-get remove"
 # install --reinstall alias
 alias reinstall="sudo apt-get install --reinstall"
 
+# rsync always show progress
+alias rsync="rsync --progress"
+
 # safe-upgrade alias
 alias safeupgrade="sudo aptitude safe-upgrade"
 
