@@ -1,5 +1,10 @@
 # Contains user-specific aliases and functions.
 
+# Include PATH settings and other user specific variables.
+if [ -f ~/.bash_profile ]; then
+    . ~/.bash_profile
+fi
+
 # cd
 alias ..="c; cd ../"
 alias ...="c; cd ../../"
